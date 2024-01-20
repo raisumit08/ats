@@ -1,0 +1,13 @@
+prefix=/Users/sumitrai/Projects/MiniProject/venv23
+exec_prefix=/Users/sumitrai/Projects/MiniProject/venv23
+libdir=/Users/sumitrai/Projects/MiniProject/venv23/lib
+sharedlibdir=/Users/sumitrai/Projects/MiniProject/venv23/lib
+includedir=/Users/sumitrai/Projects/MiniProject/venv23/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
