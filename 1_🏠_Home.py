@@ -52,14 +52,14 @@ st.markdown(f'<p style="color:{custom_text_color}; font-size:36px; font-family:m
 st.text("\n\n")
 
 
-# hide_st_style = """
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             header {visibility: hidden;}
-#             </style>
-#             """
-# st.markdown(hide_st_style, unsafe_allow_html=True)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 input_text=st.text_area("Job Description: ",key="input")
 uploaded_file=st.file_uploader("Upload your resume [PDF]",type=["pdf"])
