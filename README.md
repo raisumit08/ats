@@ -56,8 +56,8 @@ Follow these steps to set up and run the project locally.
    Create a .env file with the necessary environment variables
 
     ```bash 
-    GOOGLE_GENERATIVE_AI_KEY.py=your_google_generative_ai_key
-    DETA_PROJECT_KEY.py=your_deta_project_key
+    GOOGLE_GENERATIVE_AI_KEY=your_google_generative_ai_key
+    DETA_PROJECT_KEY=your_deta_project_key
     ```
 
 4. Run the application:
