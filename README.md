@@ -31,7 +31,7 @@ Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-- Python [version]
+- Python [3.10.0]
 - Google Generative AI API key
 - Deta Base API key
 - Streamlit installed (`pip install streamlit`)
@@ -68,11 +68,10 @@ Follow these steps to set up and run the project locally.
    
    
 ## Usage
-Access the application by navigating to [provide the application URL].
-[Provide any additional usage instructions]
+Access the application by cloning it for now
 
 ## Customization
-The project can be customized by [mention ways to customize or extend the functionality].
+The project can be customized by adding more functionalities for the community.
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
